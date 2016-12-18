@@ -1,0 +1,1 @@
+nohup ./ldapsearch -h localhost -p xxxx -XZ --bindDN cn=xxxxxxx --bindPassword __password__ --baseDN “__location__” "(objectclass=*)" dn mail name > /tmp/ldapsearch.ldif
